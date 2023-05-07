@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #252526;
+  margin: 0px;  
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: #F5F0BA;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.search-box {
+  margin: 0 16px;
+  width: 200px;
+}
+
+.search-box input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border-radius: 20px;
+  border: 1px solid #dbdbdb;
+}
+
+.profile-icon {
+  margin-right: 16px;
+}
+
+.profile-icon img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu li {
+  margin-right: 16px;
+  list-style-type: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #262626;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.main {
+  display: flex;
+  margin-top: 72px;
+  padding: 16px;
+  justify-content: center;
+}
+
+.bg1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:85px;
+  width: auto;
+  height:100vh;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.text {
+  width: 400px;
+  position: absolute;
+  bottom: 75px;
+  right: 305px;
+  border-radius: 25px;
+  border: 2px solid #5F5F61;
+  padding: 20px;
+  width: 440px;
+  height: 230px;
+  text-align: left;
+}
+
+.text1{
+  font-weight: bold;
+  position: absolute;
+  bottom: 85px;
+  right: 325px;
+  text-align: right;
+  color: #2A6AEB;;
+}
